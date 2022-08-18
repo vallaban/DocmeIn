@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="main.java.listeners.ListenerClass"></listener>
+        <listener class-name="main.java.listeners.MethodInterceptorClass"></listener>
+        <listener class-name="main.java.listeners.AnnotationTransformer"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/valla/IdeaProjects/DocmeIn">
+        <classes>
+            <class name="test.java.testcases.FirstTestcase"></class>
+            <class name="test.java.testcases.CreatePatients"> </class>
+            <class name="test.java.testcases.ExistingPatients"></class>
+        </classes>
+    </test>
+</suite>
